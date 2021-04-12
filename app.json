@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/temp/temp",
+    "pages/toast/toast",
+    "pages/request/request",
+    "pages/comp/comp",
+    "pages/nav/nav",
+    "pages/my/my",
+    "pages/nav/nav_child2/nav_child2",
+    "pages/nav/nav_child1/nav_child1"
+  ],
+  "usingComponents": {
+    "top": "/components/top/top",
+    "baseTable": "/components/table/baseTable",
+    "base": "/components/base/base",
+    "count": "/components/count/count"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/nav/home-off.png",
+        "selectedIconPath": "images/nav/home-on.png"
+      },
+      {
+        "pagePath": "pages/nav/nav",
+        "text": "跳转演示",
+        "iconPath": "images/nav/order-off.png",
+        "selectedIconPath": "images/nav/order-on.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "images/nav/my-off.png",
+        "selectedIconPath": "images/nav/my-on.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

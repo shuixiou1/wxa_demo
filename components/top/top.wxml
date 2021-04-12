@@ -1,0 +1,8 @@
+<view class="top_nav">
+    <view class="tit_ myclass">
+      <i>.</i>
+      {{title}}
+      <i>.</i>
+      <slot/> 
+    </view>
+</view>

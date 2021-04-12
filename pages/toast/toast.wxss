@@ -1,0 +1,5 @@
+/* pages/toast/toast.wxss */
+
+.hover{
+  background-color: red;
+}

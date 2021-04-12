@@ -1,0 +1,10 @@
+
+<button hover-class="hover"> 点击button的hover效果 </button>
+<view hover-class="hover"> 点击view的hover效果</view>
+
+
+<button bindtap="toast">toast弹出</button>
+<button bindtap="modal1">modal框1</button>
+<button bindtap="modal2">modal框2</button>
+
+<button bindtap="showaction">showAction</button>

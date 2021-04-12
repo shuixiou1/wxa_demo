@@ -1,0 +1,5 @@
+<!--pages/nav/nav_child2/nav_child2.wxml-->
+
+<view>
+  <view bindtap="navigateBackTest">navigateBackTest</view>
+</view>

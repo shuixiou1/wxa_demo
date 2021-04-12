@@ -1,0 +1,6 @@
+
+.base{
+  border: 1px solid red;
+  margin-top: 40rpx;
+}
+

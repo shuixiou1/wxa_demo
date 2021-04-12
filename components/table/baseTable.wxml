@@ -1,0 +1,17 @@
+
+<view class="baseTable _class">
+  <block wx:if="{{size!=0}}">
+      <view class="tr" style="height: {{_height}}rpx;">
+        <block wx:for="{{titles}}" wx:key="id">
+          <view class="th" style="width:{{widths[index]}}%">{{item}}</view>
+        </block>
+      </view>
+      <block wx:for="{{datas}}" wx:key="id">
+        <view class="tr" style="height: {{mheight}}rpx;">
+            <block wx:for="{{props}}" wx:for-item="obj">
+              <view class="td" style="width:{{widths[index]}}%">{{item[obj]}}</view>
+            </block>
+        </view>
+      </block>
+    </block>
+</view>

@@ -1,0 +1,10 @@
+
+view .baseTable{width: 100%; border: 0px solid #C1D2DE;}
+view .baseTable .tr{display: flex;width: 100%;justify-content: center;align-items: center;height: 80rpx;}
+view .baseTable .td{display: flex;justify-content: center;text-align: center;height: 100%;box-sizing: border-box}
+view .baseTable .th{display: flex;justify-content: center;text-align: center;height: 100%;box-sizing: border-box}
+view .baseTable .th{padding:10rpx 0px;background:#333;color:#fff;border:#C1D2DE 1px solid;}
+view .baseTable .td{padding:10rpx 0px;border:#C1D2DE 1px solid;white-space:pre-line;display:block }
+.baseTable {font-size: 24rpx;}
+.baseTable th{height: 40rpx;}
+.baseTable td{height: 40rpx;}

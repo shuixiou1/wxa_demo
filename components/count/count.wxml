@@ -1,0 +1,6 @@
+
+<view class="wrap_class _class">
+  <button bindtap="increment">+</button>
+  <text>{{count}}</text>
+  <button bindtap="substract">-</button>
+</view>

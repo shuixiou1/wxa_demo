@@ -1,0 +1,36 @@
+<!--pages/temp/temp.wxml-->
+
+<!-- 渲染单个属性 {{}}-->
+<view>{{hello}}</view>
+
+<!-- 渲染for语法: wx:for="{{}}" wx:for-item="item" 遍历别名是item可以省略 -->
+<view  wx:for="{{arr}}" wx:for-item="item"> 
+  <text class="log-item">{{index + 1}}. {{item.id}}. {{item.name}}</text>
+</view>
+
+<!--渲染if语法: wx:if="{{}}"-->
+<view wx:if="{{is_show==1}}">
+ 是1显示
+</view>
+<view wx:elif="{{is_show==2}}">
+ 是2显示
+</view>
+<view wx:else>
+  其他
+</view>
+
+<view bindtap="change_is_show" data-id="2">
+  点击变换2
+</view>
+<view bindtap="change_is_show" data-id="1">
+  点击变换1
+</view>
+<view>.............................................</view>
+
+<view>
+<text>当前省份：{{current_sfmc}}</text>
+  <block wx:for-items="{{sfs}}">
+    <view class="sf_item" bindtap="changeSf" data-sf="{{item.sf}}">{{item.sfmc}}</view>
+  </block>
+</view>
+

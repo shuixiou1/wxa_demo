@@ -1,0 +1,13 @@
+<!--pages/nav/nav.wxml-->
+
+
+<view bindtap="navigateToTest">跳转到nav_child1</view>
+
+<view bindtap="redirectToTest">重定向到nav_child1</view>
+
+<view bindtap="switchTabTest">切换tab到index页面</view>
+
+<!-- navigateBack -->
+<view bindtap="redirectToTest2">重定向到nav_child2</view>
+
+

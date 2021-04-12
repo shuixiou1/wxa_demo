@@ -1,0 +1,4 @@
+<!--pages/nav/nav_child1/nav_child1.wxml-->
+<text>pages/nav/nav_child1/nav_child1.wxml</text>
+
+<view bindtap="switchTabTest">切换tab到index页面</view>

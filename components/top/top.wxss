@@ -1,0 +1,16 @@
+.top_nav{
+  height: 85rpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: #2793da;
+  line-height: 100%;
+  text-align: center;
+}
+.top_nav .tit_{
+  line-height: 85rpx;
+  height: 85rpx;
+  width: 100%;
+  color: #fff;
+}

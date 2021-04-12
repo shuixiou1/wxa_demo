@@ -1,0 +1,8 @@
+
+<view class="base _class">
+  <slot name="first"></slot> 
+   {{out_text}}
+  <button bindtap='customMethod'>点击</button>
+  <button bindtap='triggerEventTop'>触发父组件的方法</button>
+  <slot name="end"></slot> 
+</view>

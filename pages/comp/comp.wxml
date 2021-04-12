@@ -1,0 +1,21 @@
+
+
+
+  <view style="width:750rpx">
+     <top title="{{title}}" myclass="custom_class">顶部bar</top>
+  </view>
+
+  <view style="width:750rpx"> 
+    <baseTable titles="{{titles}}" datas="{{datas}}"></baseTable>
+  </view>
+
+  <view style="width:750rpx">
+    <base bindcustomEvent="changeOutStr" out="{{out}}">
+      <block slot="first">首</block>
+      <block slot="end">尾</block>
+    </base>
+  </view>
+
+  <view style="width:750rpx">
+    <count count="{{out_count}}" bindchangeCount="changeCount"> </count>
+  </view>

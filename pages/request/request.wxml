@@ -1,0 +1,7 @@
+<view>
+  <view wx:for-items="{{list}}">
+      <view>{{index}} | {{item.id}} _ {{item.name}} _ {{item.data}}</view>
+  </view>
+</view>
+
+
