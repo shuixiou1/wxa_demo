@@ -4,6 +4,6 @@
 
 ![1-8章文档地址] (https://blog.csdn.net/shuixiou1/article/details/115603704)
  
+![一个官方案例的demo--组件演示和api演示] (https://github.com/xwartz/wechat-app-demo)
 
-
-![9章- 地址] (待续)
+![9-?章文档地址] (待续)
