@@ -4,3 +4,6 @@
 
 // 下拉刷新 
 https://www.cnblogs.com/simba-lkj/p/6274232.html 
+
+// 微信官方demo的汇总
+https://github.com/xwartz/wechat-app-demo
